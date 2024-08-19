@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <link rel="stylesheet" href="calculator.css" />
+</head>
+
+<body>
+    <div class="calculator">
+        <input type="text" id="display_numbers" class="display" />
+        <div class="buttons">
+            <button id="button1">C</button>
+            <button id="button2">%</button>
+            <button id="button3">DEL</button>
+            <button id="button4">/</button>
+            <button id="button5">7</button>
+            <button id="button6">8</button>
+            <button id="button7">9</button>
+            <button id="button8">*</button>
+            <button id="button9">4</button>
+            <button id="button10">5</button>
+            <button id="button11">6</button>
+            <button id="button12">-</button>
+            <button id="button13">1</button>
+            <button id="button14">2</button>
+            <button id="button15">3</button>
+            <button id="button16">+</button>
+            <button id="button17">00</button>
+            <button id="button18">0</button>
+            <button id="button19">.</button>
+            <button id="button20">=</button>
+        </div>
+    </div>
+   <script type="text/javascript">
+    function fun1(){
+    displayInput=document.getElementById("display_numbers")
+    b1=document.getElementById("button15")
+    displayInput.value=b1.innerText
+    }
+    onclick="fun1()"
+   </script>
+</body>
+  
+</html>
